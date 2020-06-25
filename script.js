@@ -1,8 +1,9 @@
+let SpeechRecognition = webkitSpeechRecognition;
 let giphyAPIKey = 'Uo81CXdUYTYmTVUtOQGKeO3mjnKTeY0o';
 
 let getSpeech = () => {
-
-
+  let recognition = new SpeechRecognition();
+  recognition.lang = 'en-US';
   recognition.start();
   // recognition.continuous = false;
   recognition.interimResults = true;
