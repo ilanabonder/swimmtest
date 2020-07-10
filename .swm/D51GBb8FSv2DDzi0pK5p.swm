@@ -1,0 +1,13 @@
+{
+    "id": "D51GBb8FSv2DDzi0pK5p",
+    "name": "Specify language",
+    "tests": [],
+    "hints": [],
+    "diff": "WkdsbVppQXRMV2RwZENCaEwzTmpjbWx3ZEM1cWN5QmlMM05qY21sd2RDNXFjd3BwYm1SbGVDQXlPVE5qTUdOaUxpNHlNR0ZtTkdJMUlERXdNRFkwTkFvdExTMGdZUzl6WTNKcGNIUXVhbk1LS3lzcklHSXZjMk55YVhCMExtcHpDa0JBSUMwekxEY2dLek1zTnlCQVFDQnNaWFFnWjJsd2FIbEJVRWxMWlhrZ1BTQW5WVzg0TVVOWVpGVlpWRmx0VkZaVmRFOVJSMHRsVHpOdGFtNUxWR1ZaTUc4bk93b2dDaUJzWlhRZ1oyVjBVM0JsWldOb0lEMGdLQ2tnUFQ0Z2V3b2dJQ0JzWlhRZ2NtVmpiMmR1YVhScGIyNGdQU0J1WlhjZ1UzQmxaV05vVW1WamIyZHVhWFJwYjI0b0tUc0tMU0FnY21WamIyZHVhWFJwYjI0dWJHRnVaeUE5SUNkbGJpMVZVeWM3Q2lzS0lDQWdjbVZqYjJkdWFYUnBiMjR1YzNSaGNuUW9LVHNLSUNBZ0x5OGdjbVZqYjJkdWFYUnBiMjR1WTI5dWRHbHVkVzkxY3lBOUlHWmhiSE5sT3dvZ0lDQnlaV052WjI1cGRHbHZiaTVwYm5SbGNtbHRVbVZ6ZFd4MGN5QTlJSFJ5ZFdVN0NnJTNEJTNE",
+    "solution_files": [
+        "script.js"
+    ],
+    "description": "cmVjb2duaXRpb24ubGFuZyUyMCUzRCUyMCdlbi1VUyclM0I=",
+    "file_version": "1.0.1",
+    "app_version": "0.1.2"
+}
