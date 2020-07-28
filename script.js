@@ -32,7 +32,7 @@ let getSpeech = () => {
 };
 
 const getGif = phrase => {
-  let url = `http://api.giphy.com/v1/gifs/random?api_key=${giphyAPIKey}&tag=${phrase}`;
+  let url = `https://api.giphy.com/v1/gifs/random?api_key=${giphyAPIKey}&tag=${phrase}`;
   console.log(url);
 
   fetch(url, {
