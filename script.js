@@ -1,3 +1,5 @@
+// this is a comment comments are cool
+
 let SpeechRecognition = webkitSpeechRecognition;
 let giphyAPIKey = 'Uo81CXdUYTYmTVUtOQGKeO3mjnKTeY0o';
 
