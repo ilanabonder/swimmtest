@@ -4,7 +4,7 @@
     "content": [
         {
             "type": "text",
-            "text": "The best part is, docs are automatically kept in sync with the code as it changes! This means docs will be something you maintain, not write over and over again. When your selected snippets are up to date, they’ll be shown like this:"
+            "text": "The best part is, docs are automatically kept in sync with the code as it changes! This means docs will be something you maintain, not write over and over again. When your selected snippets are up to date, they’ll be shown like this:\n\n</br>"
         },
         {
             "type": "snippet",
