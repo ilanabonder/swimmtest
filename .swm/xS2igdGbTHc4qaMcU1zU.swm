@@ -1,0 +1,16 @@
+{
+    "id": "xS2igdGbTHc4qaMcU1zU",
+    "name": "💡 Tips on getting started",
+    "content": [
+        {
+            "type": "text",
+            "text": "Ready to get started? Here are 3 Tips for creating great Docs with Swimm:\n\n### **Tip #01**\n\n**Identify Recurring Patterns**\n\nRecognize recurring patterns and explain how you would approach them. Examples:\n\n*   Our system recognizes new devices on the network - So, every time we support a new device, we create a class for it, which inherits from Device.\n    \n*   “We have a command-line interface, which has multiple commands. Every time we add a command we need to go through a similar process.”\n    \n*   “We read and write a lot to the local configuration. Whenever we do this, we should initialize a Configuration instance and then call its methods.”\n    \n\n### Tip #02\n\n**Focus on common topics  \n**  \nMap the the topics everyone on the team should know and write examples for each topic. Examples:\n\n*   Modules / libraries: Which ones should every person joining your team know?\n    \n*   Flows: Like recognizing a new device / making a purchase / posting an article?\n    \n\n  \n\n### Tip #03\n\n**Break Down the First Tasks**\n\nWhat should the first tasks be and what is important to know before starting them?\n\nExamples:\n\n*   The onboardee’s task is adding a new UI component for a Text Button.\n    \n    *   (S)he should know the infrastructure for creating a new component.\n        \n    *   (S)he should know how to test a UI component.\n        \n*   The onboardee’s task is to fix a small bug in the Frontend.\n    \n    *   (S)he should understand how the frontend interacts with the DB."
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.3-1",
+        "file_blobs": {}
+    }
+}
