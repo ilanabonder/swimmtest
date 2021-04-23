@@ -1,0 +1,87 @@
+{
+    "id": "K9lGIXxNf3LUAdUTcDtc",
+    "name": "📝 Making your First Docs",
+    "content": [
+        {
+            "type": "text",
+            "text": "### What is a doc?"
+        },
+        {
+            "type": "text",
+            "text": "Docs are a great way to introduce people to code flows. Swimm makes it easy to show the important parts of the code, as well as a narrative to help them understand it. New developers diving into your code base will not just understand the code as it is, but also important parts about the rationale, history and even future directions."
+        },
+        {
+            "type": "text",
+            "text": "### Docs Example"
+        },
+        {
+            "type": "text",
+            "text": "**Context**\n\nIn this Example of Docs we will walk you through a tutorial for adding the speech recognition Webkit library. In this fun interaction, the user clicks a button, inputs a phrase or word by speaking and our page outputs it as a .gif using GIPHY's API."
+        },
+        {
+            "type": "text",
+            "text": "![](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FjBw8e9J9KqxhkSYqyN0q%2F412de9fa-b3d7-4f63-bee3-e307ba0a77a1.gif?alt=media&token=377da4f6-6165-4db7-991a-c71e6a8507a9)"
+        },
+        {
+            "type": "text",
+            "text": "**Recognizing speech by clicking a button** 🎤"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "*let SpeechRecognition = webkitSpeechRecognition;"
+            ],
+            "firstLineNumber": 1,
+            "path": "script.js",
+            "comments": [
+                "For this interaction we will use the Web Speech API. Its not compatible for on all browsers but it is good in Chrome, Firefox, amongst others (you can check all docs and compatibility in their page [here](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)). The first step for our project is to create a variable and include this API."
+            ]
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "*let getSpeech = () => {",
+                "*  let recognition = new SpeechRecognition();",
+                "*  recognition.lang = 'en-US';",
+                "*  recognition.start();",
+                "*  // recognition.continuous = false;",
+                "*  recognition.interimResults = true;",
+                "*  console.log('started rec');"
+            ],
+            "firstLineNumber": 4,
+            "path": "script.js",
+            "comments": [
+                "Moving forward, we will add a function that will be triggered by a button click, that will call the [Webkit API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) `SpeechRecognition` function and get the results.\n\nIn the first part of this function we are specifying some parameters such as language, interimResults, and if we want the recording to be continuous. We call the method `recognition.start()` that starts the speech recognition service listening to incoming audio with intent to recognize grammars associated with the current `SpeechRecognition`."
+            ]
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "*  recognition.onresult = event => {",
+                "*    const speechResult = event.results[0][0].transcript;",
+                "*    console.log('result: ' + speechResult);",
+                "*    console.log('confidence: ' + event.results[0][0].confidence);",
+                "*    document.querySelector('#speech-div').textContent = speechResult;",
+                "*    getGif(speechResult);",
+                "*  };"
+            ],
+            "firstLineNumber": 12,
+            "path": "script.js",
+            "comments": [
+                "Inside `getSpeech()` we will also add the property [onresult](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/onresult) , that represents an event handler that will run when the speech recognition service returns a result — a word or phrase has been positively recognized and this has been communicated back to the app. We can get accuracy and other parameters from this method as well.\n\nAfter that we are will show the results as text in the UI for user feedback and send it for the GIPHY API to display a fun gif."
+            ]
+        },
+        {
+            "type": "text",
+            "text": "You can add and play with speech recognition in other pages and projects! Or feel more confident on collaborating with this one 😎As you experienced, this was only a Swimm example on how to show a code pattern and flow. Click to Edit it to try it yourself!\n\nWith Swimm, the selected snippets in this example tutorial were fetched straight from the code and are totally in Sync with it. Which means every time there is a change your docs will be always up to date."
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.3-1",
+        "file_blobs": {
+            "script.js": "7adc92c19d9cff42efe6642e11cf326ef35b3c1a"
+        }
+    }
+}
