@@ -31,7 +31,7 @@
             "lines": [
                 "*let SpeechRecognition = webkitSpeechRecognition;"
             ],
-            "firstLineNumber": 1,
+            "firstLineNumber": 3,
             "path": "script.js",
             "comments": [
                 "For this interaction we will use the Web Speech API. Its not compatible for on all browsers but it is good in Chrome, Firefox, amongst others (you can check all docs and compatibility in their page [here](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)). The first step for our project is to create a variable and include this API."
@@ -48,7 +48,7 @@
                 "*  recognition.interimResults = true;",
                 "*  console.log('started rec');"
             ],
-            "firstLineNumber": 4,
+            "firstLineNumber": 6,
             "path": "script.js",
             "comments": [
                 "Moving forward, we will add a function that will be triggered by a button click, that will call the [Webkit API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) `SpeechRecognition` function and get the results.\n\nIn the first part of this function we are specifying some parameters such as language, interimResults, and if we want the recording to be continuous. We call the method `recognition.start()` that starts the speech recognition service listening to incoming audio with intent to recognize grammars associated with the current `SpeechRecognition`."
@@ -65,7 +65,7 @@
                 "*    getGif(speechResult);",
                 "*  };"
             ],
-            "firstLineNumber": 12,
+            "firstLineNumber": 14,
             "path": "script.js",
             "comments": [
                 "Inside `getSpeech()` we will also add the property [onresult](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/onresult) , that represents an event handler that will run when the speech recognition service returns a result — a word or phrase has been positively recognized and this has been communicated back to the app. We can get accuracy and other parameters from this method as well.\n\nAfter that we are will show the results as text in the UI for user feedback and send it for the GIPHY API to display a fun gif."
