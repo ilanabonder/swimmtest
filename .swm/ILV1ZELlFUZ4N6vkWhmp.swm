@@ -1,0 +1,37 @@
+{
+    "id": "ILV1ZELlFUZ4N6vkWhmp",
+    "name": "✔️ Always Up to Date",
+    "content": [
+        {
+            "type": "text",
+            "text": "The best part is, docs are automatically kept in sync with the code as it changes! This means docs will be something you maintain, not write over and over again. When your selected snippets are up to date, they’ll be shown like this:"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "*let getSpeech = () => {",
+                "*  let recognition = new SpeechRecognition();",
+                "*  recognition.lang = 'en-US';",
+                "*  recognition.start();",
+                "*  // recognition.continuous = false;",
+                "*  recognition.interimResults = true;",
+                "*  console.log('started rec');"
+            ],
+            "firstLineNumber": 4,
+            "path": "script.js",
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "When minor changes happen, Swimm will try to automatically select code appropriate for the snippet, which you can accept or re-select. This is common when code moves up or down a few lines, or as the result of other trivial changes:\n\n  \n\n\\[Autosync snippet\\]\n\n  \n  \n\nWhen code goes out of sync with snippets and it can’t be automatically reconciled, Swimm will ask you to re-select the code:\n\n  \n\n\\[Manual sync snippet\\]\n\n  \n\nIn all instances, readers know if the code they’re looking at is up to date.\n\n  \nReady to write a doc? Think about a small part of the code, and then click the 'edit' button up top to get started - we'll create a brand new empty doc for you!"
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.3-1",
+        "file_blobs": {
+            "script.js": "7adc92c19d9cff42efe6642e11cf326ef35b3c1a"
+        }
+    }
+}
