@@ -8,7 +8,7 @@
         },
         {
             "type": "text",
-            "text": "Docs are a great way to introduce people to code flows. Swimm makes it easy to show the important parts of the code, as well as a narrative to help them understand it. New developers diving into your code base will not just understand the code as it is, but also important parts about the rationale, history and even future directions."
+            "text": "Docs are a great way to introduce people to code flows. Swimm makes it easy to show the important parts of the code, as well as a narrative to help them understand it. New developers diving into your code base will not just understand the code as it is, but also important parts about the rationale, history and even future directions.\n\n</br>"
         },
         {
             "type": "text",
