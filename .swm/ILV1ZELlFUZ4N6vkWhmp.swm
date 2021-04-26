@@ -4,7 +4,7 @@
     "content": [
         {
             "type": "text",
-            "text": "The best part is, docs are automatically kept in sync with the code as it changes! This means docs will be something you maintain, not write over and over again. When your selected snippets are up to date, they’ll be shown like this:\n\n</br>"
+            "text": "The best part is, docs are automatically kept in sync with the code as it changes! This means docs will be something you maintain, not write over and over again. When your selected snippets are up to date, they’ll be shown like this:"
         },
         {
             "type": "snippet",
@@ -29,7 +29,7 @@
     "symbols": {},
     "file_version": "2.0.1",
     "meta": {
-        "app_version": "0.4.3-1",
+        "app_version": "0.4.4-0",
         "file_blobs": {
             "script.js": "7adc92c19d9cff42efe6642e11cf326ef35b3c1a"
         }
