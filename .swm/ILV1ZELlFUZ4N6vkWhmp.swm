@@ -11,13 +11,13 @@
             "lines": [
                 "*let getSpeech = () => {",
                 "*  let recognition = new SpeechRecognition();",
-                "*  recognition.lang = 'en-US';",
+                "*  recognition.lang = 'pt-BR';",
                 "*  recognition.start();",
                 "*  // recognition.continuous = false;",
                 "*  recognition.interimResults = true;",
                 "*  console.log('started rec');"
             ],
-            "firstLineNumber": 6,
+            "firstLineNumber": 4,
             "path": "script.js",
             "comments": []
         },
@@ -31,7 +31,7 @@
     "meta": {
         "app_version": "0.4.4-0",
         "file_blobs": {
-            "script.js": "7adc92c19d9cff42efe6642e11cf326ef35b3c1a"
+            "script.js": "39562a782e9be979fde358f50701f9675819d066"
         }
     }
 }
