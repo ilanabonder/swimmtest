@@ -1,11 +1,9 @@
-// this is a comment comments are cool
-
 let SpeechRecognition = webkitSpeechRecognition;
-let giphyAPIKey = 'Uo81CXdUYTYmTVUtOQGKeO3mjnKTeY0o';
+let giphyAPIKey = 'enter your API KEY';
 
 let getSpeech = () => {
   let recognition = new SpeechRecognition();
-  recognition.lang = 'en-US';
+  recognition.lang = 'pt-BR';
   recognition.start();
   // recognition.continuous = false;
   recognition.interimResults = true;
@@ -22,7 +20,6 @@ let getSpeech = () => {
   recognition.onend = () => {
     console.log('it is over');
 
-    // for "endless" mode, comment out the next line and uncomment getSpeech()
     recognition.stop();
     // getSpeech(); 
 
