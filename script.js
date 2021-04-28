@@ -3,7 +3,7 @@ let giphyAPIKey = 'enter your API KEY';
 
 let getSpeech = () => {
   let recognition = new SpeechRecognition();
-  recognition.lang = 'pt-BR';
+  recognition.lang = 'en-US';
   recognition.start();
   // recognition.continuous = false;
   recognition.interimResults = true;
